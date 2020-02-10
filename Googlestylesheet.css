@@ -7,8 +7,14 @@ h1 {
 button {
     width: 100px;
     height: 50px;
+    margin: 15px;
 }
 
 button:hover {
     background-color: lightblue;
+}
+
+form {
+    text-align:center;
+    
 }
