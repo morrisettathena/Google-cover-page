@@ -12,13 +12,20 @@
                 </button>
             </a>
         </div>
-        <h1>Google Advanced</h1>
+        <h1 style="text-align:left;font-size:30px;color:red;margin:35px">Google Advanced</h1>
+        <div style="margin-left: 30%;margin-bottom:10px;">
+            Find pages with...
+        </div>
         <form action="https://google.com/search" id=form1>
-            <input type="text" name="q">
+            <input type="text" placeholder="all these words" name="q"><br>
+            <input type="text" placeholder="this exact word or phrase" name="as_epq"><br>
+            <input type="text" placeholder="any of these words" name="as_oq"><br>
+            <input type="text" placeholder="none of these words" name="as_eq">
+ 
         </form>
         <div style="text-align:center">
             <button type="submit" form="form1">
-                Google Search
+                Advance Search
             </button>
         </div>
     </body>
