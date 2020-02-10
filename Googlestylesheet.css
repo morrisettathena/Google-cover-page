@@ -5,7 +5,7 @@ h1 {
 }
 
 button {
-    width: 100px;
+    width: 125px;
     height: 50px;
     margin: 15px;
 }
@@ -16,5 +16,5 @@ button:hover {
 
 form {
     text-align:center;
-    
+
 }
